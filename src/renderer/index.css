@@ -1,0 +1,67 @@
+body {
+  background-color: #010d1b !important;
+}
+
+* {
+  scrollbar-color: #e5e5ea transparent;
+  scrollbar-width: thin;
+}
+
+::selection {
+  color: #fff;
+  background: #088;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 12px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+  transition: all 1s;
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover,
+:hover::-webkit-scrollbar-thumb {
+  background: #e5e5ea;
+}
+
+.MuiDrawer-root > .MuiPaper-root {
+  overflow: visible;
+}
+
+/* @keyframes BlingBling {
+  0% {
+    color: #f44336;
+  }
+  20% {
+    color: #ff9800;
+  }
+  35% {
+    color: #ffeb3b;
+  }
+  50% {
+    color: #4caf50;
+  }
+  65% {
+    color: #03a9f4;
+  }
+  80% {
+    color: #3f51b5;
+  }
+  100% {
+    color: #9c27b0;
+  }
+} */

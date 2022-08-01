@@ -1,0 +1,18 @@
+{
+  "name": "light",
+  "version": "1.0.1",
+  "description": "光之演奏家",
+  "license": "MIT",
+  "author": {
+    "name": "妙蛤种子",
+    "email": "1031568754@qq.com",
+    "url": "https://github.com/sad-xu"
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {}
+}
